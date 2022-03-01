@@ -130,7 +130,7 @@
 }
 
 .cert_bg{
-    background-image: url('/assets/img/cert_bg_web.png');
+    background-image: url('../img/cert_bg_web.png');
     width: 1170px;
     height: 854px;
     background-size: cover;
@@ -185,7 +185,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('/assets/img/logo2.png');
+    background-image: url('../img/logo2.png');
     margin-bottom: 3em;
 }
 
@@ -230,8 +230,3 @@
     width: 100%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-
-
-
-
-
