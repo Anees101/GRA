@@ -17,20 +17,25 @@ fetch("/assets/pages/footer.html")
     document.querySelector("footer").innerHTML = data;
   });
 //--------------------------------------------------
-fetch("/assets/pages/script.html")
-  .then(response => {
-    return response.text()
-  })
-  .then(data => {
-    document.querySelector("jsa").innerHTML = data;
-  });
+
 //--------------------------------------------------
 fetch("/assets/pages/search.html")
   .then(response => {
     return response.text()
   })
   .then(data => {
-    document.querySelector("search").innerHTML = data;
+    document.querySelector("searchbar").innerHTML = data;
   });
 //--------------------------------------------------
+fetch("/assets/pages/search1.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("searchbar1").innerHTML = data;
+  });
+//--------------------------------------------------
+
+
+
 // Pages
