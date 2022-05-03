@@ -1,7 +1,7 @@
 
 //Pages
 //--------------------------------------------------
-fetch("./assets/pages/navbar.html")
+fetch("/assets/pages/navbar.html")
   .then(response => {
     return response.text()
   })
@@ -9,7 +9,7 @@ fetch("./assets/pages/navbar.html")
     document.querySelector("header").innerHTML = data;
   });
 //--------------------------------------------------
-fetch("./assets/pages/footer.html")
+fetch("/assets/pages/footer.html")
   .then(response => {
     return response.text()
   })
@@ -17,7 +17,7 @@ fetch("./assets/pages/footer.html")
     document.querySelector("footer").innerHTML = data;
   });
 //--------------------------------------------------
-fetch("./assets/pages/script.html")
+fetch("/assets/pages/script.html")
   .then(response => {
     return response.text()
   })
@@ -25,7 +25,7 @@ fetch("./assets/pages/script.html")
     document.querySelector("jsa").innerHTML = data;
   });
 //--------------------------------------------------
-fetch("./assets/pages/search.html")
+fetch("/assets/pages/search.html")
   .then(response => {
     return response.text()
   })
