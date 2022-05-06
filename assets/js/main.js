@@ -36,6 +36,16 @@ fetch("/assets/pages/search1.html")
   });
 //--------------------------------------------------
 
+function redirect(ele) {
+  if(event.key === 'Enter') {
+      if(ele.value === 'google')
+      window.location.href = 'https://google.com';
 
+      
+      
+      else
+          alert("Invalid Input");
+  }
+}
 
 // Pages
