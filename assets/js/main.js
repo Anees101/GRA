@@ -36,10 +36,22 @@ fetch("/assets/pages/search1.html")
   });
 //--------------------------------------------------
 
+fetch("/Certificate/Round/Round_9.0mm.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("CRO").innerHTML = data;
+  });
+//--------------------------------------------------
+
+
 function redirect(ele) {
   if(event.key === 'Enter') {
       if(ele.value === 'google')
       window.location.href = 'https://google.com';
+      if(ele.value === '990078567')
+      window.location.href = '/Certificates/990078567';
 
       
       
